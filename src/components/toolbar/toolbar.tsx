@@ -11,16 +11,16 @@ export const Toolbar: FunctionComponent<toolbar> = ({
 }): ReactElement => {
   return (
     <div className="c-button c-bottom-border">
-      <button className="c-button c-icon-button" id="bold" onClick={(e) => actionPerformed(e, "bold")}>
+      <button className="c-button c-icon-button" data-testid="bold" onClick={(e) => actionPerformed(e, "bold")}>
         <FaBold />
       </button>
-      <button className="c-button c-icon-button" id="italic" onClick={(e) => actionPerformed(e, "italic")}>
+      <button className="c-button c-icon-button" data-testid="italic" onClick={(e) => actionPerformed(e, "italic")}>
         <FaItalic />
       </button>
-      <button className="c-button c-icon-button" id="link" onClick={(e) => actionPerformed(e, "link")}>
+      <button className="c-button c-icon-button" data-testid="link" onClick={(e) => actionPerformed(e, "link")}>
         <FaLink />
       </button>
-      <button className="c-button c-icon-button" id="list" onClick={(e) => actionPerformed(e, "list")}>
+      <button className="c-button c-icon-button" data-testid="list" onClick={(e) => actionPerformed(e, "list")}>
         <FaListUl />
       </button>
     </div>
