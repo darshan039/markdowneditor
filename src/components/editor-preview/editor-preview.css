@@ -1,0 +1,12 @@
+.c-padding {
+  padding: 20px 10px;
+}
+
+#editor-preview>div p {
+  margin: 0 0 10px;
+}
+
+#editor-preview>div {
+  height: -webkit-fill-available;
+  overflow-y: scroll;
+}

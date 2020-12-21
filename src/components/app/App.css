@@ -1,0 +1,10 @@
+body {
+  padding: 40px; 
+}
+
+.c-markdown-center-align {
+  margin: auto;
+  width: 50%;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}

@@ -1,0 +1,15 @@
+.c-flex-container {
+  display: flex;
+}
+
+.c-flex-child {
+  flex: 1;
+}  
+
+.c-flex-child:first-child {
+  border-right: 1px solid #dcdcdc;
+} 
+
+.c-parent-height {
+  height: 500px;
+}

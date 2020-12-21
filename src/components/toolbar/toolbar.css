@@ -1,0 +1,31 @@
+.c-button {
+  border-style: hidden;
+  background-color: #ffffff;
+}
+
+.c-icon-button {
+  padding: 0;
+  min-width: 0;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.c-icon-button:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.c-button:active, .c-button:focus {
+  outline: none;
+}
+
+.c-bottom-border {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.c-button.c-icon-button > svg {
+  vertical-align: middle;
+}
