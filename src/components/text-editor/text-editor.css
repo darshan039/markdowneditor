@@ -1,0 +1,7 @@
+.c-text-box-styles {
+  border: hidden;
+  padding: 20px 10px;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  resize: none;
+}
