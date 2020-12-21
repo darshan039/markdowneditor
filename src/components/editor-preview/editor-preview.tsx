@@ -10,7 +10,7 @@ export const EditorPreview: FunctionComponent<editorPreview> = ({
   previewText,
 }): ReactElement => {
   return (
-    <div id="editor-preview" className="c-padding">
+    <div id="editor-preview" className="c-preview">
       <MarkdownView markdown={previewText}></MarkdownView>
     </div>
   );
