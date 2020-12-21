@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# markdowneditor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![markdowneditor](https://github.com/darshan039/markdowneditor/blob/main/src/assets/images/demo_image.png?raw=true)
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+Node.js version 12+
 
 ### `npm start`
 
